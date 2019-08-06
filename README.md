@@ -1,7 +1,10 @@
 # hm_home
 
 This repository contains TOML files for Harmonie experiments. 
-Each branch defines an experiment.
+Each branch defines an experiment. See the cy43_3dvar_exp branch in this repo for an example. 
+The files main.toml and domain.toml are required and will be validated using json schema. 
+Other toml files are optional and overwrite default settings.
+
 
 ## How to run an experiment 
 ### On ecgate
