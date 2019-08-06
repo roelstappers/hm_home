@@ -16,7 +16,7 @@ export JULIA_DEPOT_PATH=/perm/ms/no/fars/jlpkg4harmonie
 ```
 
 ```bash
-export HMHOME=https://github.com/roelstappers/hm_home.git
+export HMHOME_REPOSITORY=https://github.com/roelstappers/hm_home.git
 ```
 
 To run an experiment defined in <branchname> 
@@ -26,7 +26,7 @@ Harmonie start <branchname>
 ```
 
 ## Worktrees
-It is convenient to have a seperate directory for each experiment on ecgate to make edit TOML files
+It is convenient to have a seperate directory for each experiment on ecgate to edit TOML files
 This can achieve as.  
 
 On ecgate  
@@ -43,8 +43,12 @@ Then create a worktree for <branch> in  $HOME/hm_home/<branch> by
 cd $PERM/git
 git worktree add $HOME/hmhome/<branch> <branch>
 ```
-Note `hmhome` instead of `hm_home` to avoid any possible conflicts with existing experiments
+* Note `hmhome` instead of `hm_home` to avoid any possible conflicts with existing experiments.
+* Note if $HMHOME_REPOSITORY points to http://... then make sure to do a `git commit` folled by `git push` in the experiment directory on ecgate. Or 
 
+```export HMHOME_REPOSITORY=$HOME/HMHOME```
+
+After this it is still a good idea to commit and push regularly. 
  
 
 
