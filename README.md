@@ -9,7 +9,10 @@ Each branch defines an experiment.
 ```bash
 # in the future this will become  `module load Harmonie`
 export PATH:/perm/ms/no/fars/julia-1.1.1/bin:$PATH   
-export JULIA_DEPOT_PATH=/perm/ms/no/fars/jlpkg4harmonie  
+export JULIA_DEPOT_PATH=/perm/ms/no/fars/jlpkg4harmonie
+```
+
+```bash
 export HMHOME=https://github.com/roelstappers/hm_home.git
 ```
 
