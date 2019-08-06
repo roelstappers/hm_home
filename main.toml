@@ -1,0 +1,8 @@
+description = "My 3dvar experiment" 
+dtg         = 2019-01-01T00:00:00Z 
+dtgend      = 2019-01-03T12:00:00Z
+gitrepo     = "git@hirlam.org:users/fars/Harmonie" 
+email       = "myname@institute.com
+gitbranch   = "cy43_3dvar" 
+
+
