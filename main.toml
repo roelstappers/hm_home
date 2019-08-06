@@ -1,8 +1,12 @@
 description = "My 3dvar experiment" 
+email       = "myname@institute.com"
+
+# Start and end time 
 dtg         = 2019-01-01T00:00:00Z 
 dtgend      = 2019-01-03T12:00:00Z
-gitrepo     = "git@hirlam.org:users/fars/Harmonie" 
-email       = "myname@institute.com
-gitbranch   = "cy43_3dvar" 
+
+# GIT branch 
+gitrepository = "git@hirlam.org:users/fars/Harmonie" 
+gitbranch     = "cy43" 
 
 
